@@ -14,3 +14,11 @@ body {
 ::after {
   border-width: 0;
 }
+
+
+.outlined-text {
+
+    color: white;
+    -webkit-text-stroke: 3px #333333;
+
+}
