@@ -22,3 +22,10 @@ body {
     -webkit-text-stroke: 3px #333333;
 
 }
+
+
+
+.aspect-explore-background{
+
+    aspect-ratio: 1440 / 410;
+}

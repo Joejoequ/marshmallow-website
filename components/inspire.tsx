@@ -5,7 +5,7 @@ function Inspire (){
         <div>
 
             <div
-                className="absolute top-[3268px] left-[-24px] bg-darkseagreen box-border w-[1467px] h-[518px] border-[3px] border-solid border-black"/>
+                className="absolute top-[3268px]  bg-darkseagreen box-border w-full h-[518px] border-t-[3px] border-b-[3px] border-solid border-black"/>
 
 
             <div className="absolute top-[3356px] left-[137px] w-[631px] h-[270px]">

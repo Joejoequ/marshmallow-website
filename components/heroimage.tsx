@@ -1,12 +1,19 @@
 function HeroImage(){
 
     return (
-        <div>
+        <div className="w-full h-[750px]">
+
+
+            {/* Background */}
+                <div className="flex justify-center  w-full">
             <img
-                className="absolute h-[11%]  top-[8.55%]  bottom-[80.45%] left-[-12.71%] max-w-full overflow-hidden max-h-full object-contain mix-blend-normal"
+                className="absolute h-auto  top-[8.55%]  w-[120vw]   object-contain mix-blend-normal"
                 alt=""
                 src="/vector-2529.svg"
             />
+
+</div>
+
             <img
                 className="absolute h-[0.76%] w-[1.74%] top-[11.68%] right-[49.44%] bottom-[87.55%] left-[48.82%] max-w-full overflow-hidden max-h-full"
                 alt=""

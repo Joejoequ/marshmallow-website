@@ -3,9 +3,9 @@ function Explore() {
 
     return (<div>
         <div
-            className="absolute top-[1253px] left-[-42px] rounded-xl bg-tomato box-border w-[1544px] h-[410px] border-[3px] border-solid border-black"/>
+            className="absolute top-[1253px]  bg-tomato box-border w-full border-t-[3px] border-b-[3px] border-solid border-black aspect-explore-background"/>
         <img
-            className="absolute top-[1008px] left-[-131px] w-[756px] h-[748px] object-cover"
+            className="absolute top-[1008px]  w-[40%] h-[748px] object-cover"
             alt=""
             src="/852shots-so@2x.png"
         />
@@ -14,12 +14,6 @@ function Explore() {
             alt=""
             src="/scribbles4@2x.png"
         />
-
-        <div
-            className="absolute top-[1473px] left-[768px] leading-[150%] inline-block w-[519px]">{`Never miss out nearby events, explore & experience fun activities with others.`}</div>
-
-
-
 
 
         <div
@@ -36,6 +30,10 @@ function Explore() {
                     </div>
                 </div>
             </div>
+        </div>
+        <div
+            className="absolute top-[1473px] left-[768px] leading-[150%] inline-block w-[519px]">Never miss out nearby
+            events, explore & experience fun activities with others.
         </div>
 
     </div>);
