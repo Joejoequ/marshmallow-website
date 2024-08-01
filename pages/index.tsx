@@ -15,15 +15,16 @@ const Desktop: NextPage = () => {
 
   return (
       <div
-          className="w-full relative bg-white h-[5238px] overflow-hidden text-left text-5xl text-gray-200 font-dm-sans">
+          className="w-full flex flex-col bg-white  overflow-hidden text-left text-5xl text-gray-200 font-dm-sans">
 
          
         <Navbar/>
+          <Explore />
+          <Connect/>
+          {/*
 
-        <HeroImage/>
-        <Explore/>
 
-        <Connect/>
+
 
         <Create/>
 
@@ -33,7 +34,9 @@ const Desktop: NextPage = () => {
 
         <Footer/>
 
+        */
 
+          }
 
 
 
