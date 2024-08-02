@@ -6,9 +6,9 @@ function Connect() {
     return (
 
 
-        <div className="flex">
+        <div className="flex mt-[99px] justify-between">
 
-            <div className="flex w-[50%] ">
+            <div className="flex w-[47%] ">
                 <div className="flex flex-col">
 
 
@@ -48,7 +48,7 @@ function Connect() {
 
 
             <div
-                className="rounded-xl bg-dodgerblue box-border h-[681px] border-[3px] border-solid border-black w-[50%] flex justify-center">
+                className="rounded-xl bg-dodgerblue box-border h-[681px] border-[3px] border-solid border-black w-[48%] relative left-[1%] flex justify-center">
 
                 <img
                     className=" w-[552px] h-[717px] object-cover"

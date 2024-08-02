@@ -1,51 +1,61 @@
-function Inspire (){
+function Inspire() {
 
 
     return (
-        <div>
-
-            <div
-                className="absolute top-[3268px]  bg-darkseagreen box-border w-full h-[518px] border-t-[3px] border-b-[3px] border-solid border-black"/>
 
 
-            <div className="absolute top-[3356px] left-[137px] w-[631px] h-[270px]">
-                <div className="absolute top-[198px] left-[0px] leading-[150%] inline-block w-[631px]">
-                    Feedback system helps filter fake profiles, connect with authentic
-                    people within our community.
-                </div>
-                <img
-                    className="absolute top-[0px] left-[259px] w-[274px] h-[214.6px] object-contain opacity-[0.9]"
-                    alt=""
-                    src="/scribbles1@2x.png"
-                />
-                <div
-                    className="absolute top-[59px] left-[0px] w-[275px] h-[108px] text-26xl text-gray-100 font-fugaz-one">
-                    <div className="absolute top-[0px] left-[0px] w-[275px] h-[108px]">
-                        <img
-                            className="absolute top-[12px] left-[0px] rounded-xl w-[268px] h-24"
-                            alt=""
-                            src="/rectangle-3467516.svg"
-                        />
-                        <div
-                            className="absolute top-[0px] left-[7px] rounded-xl bg-white box-border w-[268px] h-[99px] border-[3px] border-solid border-black"/>
-                    </div>
-                    <div className="absolute top-[15px] left-[64px] w-[155px] h-[68px]">
-                        <div className="absolute top-[0px] left-[0px] w-[155px] h-[68px]">
-                            <div className="absolute top-[0px] left-[0px] leading-[150%]">
-                                Inspire
+        <div
+            className="flex  bg-darkseagreen box-border w-full h-[518px] border-t-[3px] border-b-[3px] border-solid border-black mt-[131px]">
+
+
+                <div className="flex flex-col w-[55%]">
+
+
+                    <div>
+
+                        <div className="flex">
+                            <div
+                                className="flex flex-col items-center justify-center w-[276px] h-[107px] font-fugaz-one text-26xl text-gray-100 relative bg-transparent mt-[144px] ml-[137px]">
+                                {/* 黑色背景框与白色框叠加 */}
+                                <div className="relative w-full h-full">
+                                    {/* 黑色背景框 */}
+                                    <div className="bg-black rounded-xl w-[268px] h-[99px] mt-2 ml-[0px]"></div>
+                                    {/* 白色前景框 */}
+                                    <div
+                                        className="bg-white rounded-xl box-border w-[268px] h-[99px] border-[3px] border-solid  border-black absolute top-0 left-2"></div>
+                                </div>
+                                {/* 文本内容层 */}
+                                <div
+                                    className="w-[183px] h-[68px] flex items-center justify-center absolute top-[16px] left-[51px] leading-[150%]">
+                                    Inspire
+                                </div>
                             </div>
+
+
+                            <img
+                                className=" w-[274px] h-[214.6px] object-contain opacity-[0.9] mt-[85px]"
+                                alt=""
+                                src="/scribbles1@2x.png"
+                            />
+
                         </div>
+
+                    </div>
+                    <div className=" leading-[150%] inline-block w-[631px] ml-[137px] mt-[31px]">
+                        Feedback system helps filter fake profiles, connect with authentic
+                        people within our community.
                     </div>
                 </div>
+
+
+
+            <div className="w-[45%] flex justify-center">
+                <img
+                    className="relative top-[20px] w-[323.6px] h-[497.6px] object-cover"
+                    alt=""
+                    src="/622shots-so@2x.png"
+                />
             </div>
-
-
-            <img
-                className="absolute top-[3284px] left-[953px] w-[323.6px] h-[497.6px] object-cover"
-                alt=""
-                src="/622shots-so@2x.png"
-            />
-
 
         </div>
 

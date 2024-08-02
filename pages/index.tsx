@@ -20,19 +20,19 @@ const Desktop: NextPage = () => {
          
         <Navbar/>
           <Explore />
-          <Connect/>
+          <Connect/><Create/><Inspire/><UserReview/><Footer/>
           {/*
 
 
 
 
-        <Create/>
 
-        <Inspire/>
 
-        <UserReview/>
 
-        <Footer/>
+
+
+
+
 
         */
 

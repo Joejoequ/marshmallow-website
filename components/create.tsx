@@ -1,44 +1,52 @@
 function Create(){
 
     return(
-        <div>
+        <div className="flex justify-between mt-[300px]">
 
             <div
-                className="absolute top-[2692px] left-[-151px] rounded-xl bg-gold box-border w-[818px] h-[451px] border-[3px] border-solid border-black"/>
-            <div
-                className="absolute top-[2799px] left-[748px] w-[276px] h-[108px] text-[42px] text-gray-100 font-fugaz-one">
-                <div className="absolute top-[0px] left-[0px] w-[276px] h-[108px]">
-                    <div className="absolute top-[9px] left-[8px] rounded-xl bg-black w-[268px] h-[99px]"/>
-                    <div
-                        className="absolute top-[0px] left-[0px] rounded-xl bg-white box-border w-[268px] h-[99px] border-[3px] border-solid border-black"/>
-                </div>
-                <div className="absolute top-[18px] left-[62px] w-36 h-[63px]">
-                    <div className="absolute top-[0px] left-[0px] w-36 h-[63px]">
-                        <div className="absolute top-[0px] left-[0px] leading-[150%]">
-                            Create
-                        </div>
-                    </div>
-                </div>
+                className="relative right-[1%] rounded-xl bg-gold box-border w-[47%] h-[451px] border-[3px] border-solid border-black flex justify-center">
+
+                <img
+                    className="overflow-visible relative bottom-[300px] w-[536px] h-[808px] object-cover"
+                    alt=""
+                    src="/349shots-so-1@2x.png"
+                />
             </div>
 
 
-            <img
-                className="absolute top-[2395px] left-[49px] w-[536px] h-[808px] object-cover"
-                alt=""
-                src="/349shots-so-1@2x.png"
-            />
+
+            <div className="flex flex-col w-[47%]">
+
+                <div className="flex">
 
 
-            <div
-                className="absolute top-[2944px] left-[748px] text-darkslategray-100">{`Organize events quick & easy & the way you like.`}</div>
+                    <div
+                        className="w-[277px] h-[107px] font-fugaz-one  text-gray-100 text-[42px] relative flex items-center justify-center mt-[104px] ">
+                        {/* 黑色背景框 */}
+                        <div className="bg-black rounded-xl w-[268px] h-[99px] relative top-2 left-2 "></div>
+                        {/* 白色前景框 */}
+                        <div
+                            className="bg-white rounded-xl w-[268px] h-[99px]  absolute box-border   border-[3px] border-solid border-black"></div>
+                        {/* 文本内容区 */}
+                        <div className="w-[168px] h-[68px] flex items-center justify-center absolute">
+                            Create
+                        </div>
+                    </div>
 
-            <img
-                className="absolute top-[2799px] left-[1037px] w-[139px] h-[103px] object-contain"
-                alt=""
-                src="/scribbles2@2x.png"
-            />
 
+                    <img
+                        className="mt-[78px] w-[139px] h-[103px] object-contain"
+                        alt=""
+                        src="/scribbles2@2x.png"
+                    />
+                </div>
 
+                <div
+                    className=" text-darkslategray-100 mt-[37px]">Organize events quick & easy & the
+                    way you like.
+                </div>
+
+            </div>
         </div>
 
 

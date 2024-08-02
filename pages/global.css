@@ -24,4 +24,12 @@ body {
 }
 
 
+.userReview-background {
+    background-position: 1% 0%;
+    background-image: url('../public/vector-2.svg');
+
+    background-repeat: no-repeat;
+    background-size: 120% 100%;
+}
+
 
