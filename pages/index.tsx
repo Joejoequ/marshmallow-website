@@ -19,6 +19,7 @@ const Desktop: NextPage = () => {
 
          
         <Navbar/>
+          <HeroImage/>
           <Explore />
           <Connect/><Create/><Inspire/><UserReview/><Footer/>
           {/*

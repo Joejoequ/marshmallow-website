@@ -5,7 +5,7 @@ function Navbar() {
 
     return (
 
-        <div className="lg:h-[200px] h-[100px] flex justify-between">
+        <div className="lg:h-[200px] md:h-[150px] sm:h-[130px] h-[100px] flex justify-between">
             <div className=" text-xl text-black font-fredoka-one ">
                 <div className=" flex flex-row items-center justify-start gap-[22px] mt-[25px] ml-[25px] lg:mt-[68px] lg:ml-[68px] ">
                     <img
