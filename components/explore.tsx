@@ -3,7 +3,7 @@ function Explore() {
 
     return (
         <div
-            className="mt-[13.89vw] flex justify-center bg-tomato box-border w-full border-t-[3px] border-b-[3px] border-solid border-black  h-[28.05vw] ">
+            className="mt-[4vw] flex justify-center bg-tomato box-border w-full border-t-[3px] border-b-[3px] border-solid border-black  h-[28.05vw] ">
             <div className=" overflow-visible flex flex-shrink-0 ">
                 <img
                     className="relative overflow-visible w-[52.5vw] bottom-[5.56vw] right-[8.33vw] object-cover"
