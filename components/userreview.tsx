@@ -9,7 +9,7 @@ function UserReview() {
                     What happy users have to say
                 </div>
                 <img
-                    className="w-[8.89vw] h-[6.67vw] object-contain"
+                    className="w-[8.89vw] h-[6.67vw] object-contain relative top-[-1.5vw] left-[1vw]"
                     alt=""
                     src="/scribbles5@2x.png"
                 />
